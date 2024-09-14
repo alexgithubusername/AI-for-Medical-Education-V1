@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Quality Improvement in Healthcare</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        textarea { width: 70%; }
+        .grade-1 { background-color: #ff0000; } /* Red */
+        .grade-2 { background-color: #ffa500; } /* Orange */
+        .grade-3 { background-color: #ffff00; } /* Yellow */
+        .grade-4 { background-color: #008000; } /* Green */
+        .grade-5 { background-color: #0000ff; } /* Blue */
+    </style>
+</head>
+<body>
+    
+    <main>
+        <section>
+            <h2>Exploring Quality Improvement in Healthcare</h2>
+            <p>This section delves into the critical components of quality improvement in healthcare, providing an in-depth understanding of each element.</p>
+        </section>
+
+        <header>
+            <h1><a href="https://live.avomd.io/dashboard/71b1ed7e-3d8f-439f" target="_blank">AI for GME</a></h1>
+            <p>This website allows you to rapidly draft up different sections of your quality improvement project.</p>
+        
+        </header>
+        <section>
+            <h2>Setting Aims</h2>
+            <h3>Problem Definition</h3>
+            <p>0 = Not Done | 1 = Needs Improvement | 3 = Meets Expectations | 5 = Exceeds Expectations</p>
+            <ul>
+                <li><strong>4-5:</strong> Presents epidemiologic and/or local data describing the burden of the problem (5 is more specific, 4 is less specific).</li>
+                <li><strong>3:</strong> General statement of the problem but lacks specific data or supporting evidence.</li>
+                <li><strong>1-2:</strong> Nature and scope of the problem is unclear or not well articulated.</li>
+            </ul>
+            <textarea id="problem-definition" placeholder="Enter your problem definition here..."></textarea>
+            <input type="number" id="problem-definition-grade" name="problem-definition-grade" min="0" max="5" placeholder="Grade" class="grade-box">
+            <h3>Aim Statement</h3>
+            <ul>
+                <li><strong>5:</strong> Aim statement contains all SMART components with a feasible target and clear rationale.</li>
+                <li><strong>4:</strong> Aim statement contains all SMART components with a feasible target.</li>
+                <li><strong>3:</strong> Aim statement contains most SMART components.</li>
+                <li><strong>1-2:</strong> Aim statement missing several SMART components.</li>
+            </ul>
+            <textarea id="aim-statement" placeholder="Enter your aim statement here..."></textarea>
+            <input type="number" id="aim-statement-grade" name="aim-statement-grade" min="0" max="5" placeholder="Grade" class="grade-box">
+        </section>
+
+        <section>
+            <h2>Establishing Measures</h2>
+            <h3>Family of Measures</h3>
+            <ul>
+                <li><strong>5:</strong> Robust set of measures, including outcome, process, and balancing measures.</li>
+                <li><strong>4:</strong> Includes one outcome, one process, and one balancing measure.</li>
+                <li><strong>3:</strong> Includes at least one outcome or key process measure and one balancing measure.</li>
+                <li><strong>1-2:</strong> Measures are inadequately described or inappropriate for the project aim.</li>
+            </ul>
+            <textarea id="outcome-measure" placeholder="Enter your outcome measure here..."></textarea>
+            <input type="number" id="outcome-measure-grade" name="outcome-measure-grade" min="0" max="5" placeholder="Grade" class="grade-box">
+            <textarea id="process-measure" placeholder="Enter your process measure here..."></textarea>
+            <input type="number" id="process-measure-grade" name="process-measure-grade" min="0" max="5" placeholder="Grade" class="grade-box">
+            <textarea id="balancing-measure" placeholder="Enter your balancing measure here..."></textarea>
+            <input type="number" id="balancing-measure-grade" name="balancing-measure-grade" min="0" max="5" placeholder="Grade" class="grade-box">
+        </section>
+
+        <section>
+            <h2>Developing Change Ideas</h2>
+            <h3>Stakeholder Engagement</h3>
+            <ul>
+                <li><strong>4-5:</strong> Detailed explanation of stakeholder identification and engagement; all key groups included (a '5' shows clear evidence of how engagement informed activities).</li>
+                <li><strong>3:</strong> Relevant stakeholder groups listed with some meaningful engagement.</li>
+                <li><strong>2:</strong> Some stakeholder groups identified but missing key groups or superficial engagement.</li>
+                <li><strong>1:</strong> Superficial engagement with a single stakeholder group; missing major relevant groups.</li>
+            </ul>
+            <textarea id="stakeholder-engagement" placeholder="Describe your stakeholder engagement here..."></textarea>
+            <input type="number" id="stakeholder-engagement-grade" name="stakeholder-engagement-grade" min="0" max="5" placeholder="Grade" class="grade-box">
+        </section>
+        <section>
+            <h2>Testing Changes with PDSA Cycles</h2>
+            <h3>Understanding the System</h3>
+            <p>0 = Not Done | 1 = Needs Improvement | 3 = Meets Expectations | 5 = Exceeds Expectations</p>
+            <ul>
+                <li><strong>5:</strong> QI tools (e.g., fishbone diagram, process map) are detailed and inform the theory of change.</li>
+                <li><strong>4:</strong> QI tools are correctly constructed with some linkage to the theory of change.</li>
+                <li><strong>3:</strong> QI tools constructed but lack detail and interpretation.</li>
+                <li><strong>1-2:</strong> Incomplete root cause analysis using improper QI tools.</li>
+            </ul>
+            <textarea id="understanding-system" placeholder="Describe your understanding of the system here..."></textarea>
+            <input type="number" id="understanding-system-grade" name="understanding-system-grade" min="0" max="5" placeholder="Grade" class="grade-box">
+        
+            <h3>Selecting and Testing Interventions</h3>
+            <ul>
+                <li><strong>5:</strong> Systems-based intervention logically linked to root causes with rationale for high-impact selection.</li>
+                <li><strong>4:</strong> Intervention considers feasibility, sustainability, and potential unintended consequences.</li>
+                <li><strong>3:</strong> Intervention linked to problem theory from characterization activities.</li>
+                <li><strong>2:</strong> Theory and change concept not based on problem characterization.</li>
+                <li><strong>1:</strong> Intervention lacks clear link to problem or theory.</li>
+            </ul>
+            <textarea id="selecting-interventions" placeholder="Describe your selecting and testing interventions here..."></textarea>
+            <input type="number" id="selecting-interventions-grade" name="selecting-interventions-grade" min="0" max="5" placeholder="Grade" class="grade-box">
+        
+            <h3>PDSA Cycles</h3>
+            <ul>
+                <li><strong>5:</strong> Multiple PDSA cycles with clear linkage and refinement of intervention.</li>
+                <li><strong>4:</strong> More than one PDSA cycle with minimal evidence of refinement.</li>
+                <li><strong>3:</strong> Single change implemented with reflection for future work.</li>
+                <li><strong>2:</strong> Single change implemented without refinement despite ineffectiveness.</li>
+                <li><strong>1:</strong> Partial implementation of a single change.</li>
+            </ul>
+            <textarea id="pdsa-cycles" placeholder="Describe your PDSA cycles here..."></textarea>
+            <input type="number" id="pdsa-cycles-grade" name="pdsa-cycles-grade" min="0" max="5" placeholder="Grade" class="grade-box">
+        
+            <h3>Analyzing Data and Evaluating Results</h3>
+            <ul>
+                <li><strong>5:</strong> Data presented as annotated run charts with multiple measures; use of control charts.</li>
+                <li><strong>4:</strong> Data presented as run charts with proper annotation and interpretation.</li>
+                <li><strong>3:</strong> Data presented as run charts but lacking annotation or too preliminary.</li>
+                <li><strong>2:</strong> Attempt to evaluate impact using proposed measures (e.g., before-after comparison).</li>
+                <li><strong>1:</strong> Inappropriate evaluation methods used.</li>
+            </ul>
+            <textarea id="analyzing-data" placeholder="Describe your data analysis and evaluation here..."></textarea>
+            <input type="number" id="analyzing-data-grade" name="analyzing-data-grade" min="0" max="5" placeholder="Grade" class="grade-box">
+        </section>
+
+        <section>
+            <h2>Overall Rating</h2>
+            <p>1 = Needs Improvement | 3 = Meets Expectations | 5 = Exceeds Expectations</p>
+            <input type="number" id="overall-rating-grade" name="overall-rating-grade" min="1" max="5" placeholder="Grade" class="grade-box">
+        </section>
+
+        <section id="consolidated-project">
+            <h2>Consolidated Project Information</h2>
+            <div id="project-summary" class="project-summary"></div>
+        </section>
+
+        <section>
+            <h2>Introduction</h2>
+            <p>Quality improvement (QI) is a systematic approach to continuously enhance the processes and outcomes of healthcare delivery. It aims to improve patient safety, patient satisfaction, and efficiency of care.</p>
+        </section>
+
+        <section>
+            <h2>Key Principles of Quality Improvement</h2>
+            <ul>
+                <li>Focus on systems and processes, not individuals.</li>
+                <li>Use data to identify problems and measure improvement.</li>
+                <li>Emphasize teamwork and collaboration.</li>
+                <li>Promote a culture of continuous learning and improvement.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>QI Methods and Tools</h2>
+            <ul>
+                <li>Plan-Do-Study-Act (PDSA) cycle</li>
+                <li>Root Cause Analysis (RCA)</li>
+                <li>Process Mapping</li>
+                <li>Statistical Process Control (SPC)</li>
+                <li>Lean and Six Sigma methodologies</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Benefits of Quality Improvement</h2>
+            <ul>
+                <li>Improved patient safety and outcomes</li>
+                <li>Increased patient satisfaction</li>
+                <li>Reduced healthcare costs</li>
+                <li>Enhanced efficiency and productivity</li>
+                <li>Improved staff morale and engagement</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Conclusion</h2>
+            <p>Quality improvement is an essential aspect of modern healthcare. By embracing QI principles and methods, healthcare organizations can continuously strive to provide safer, more effective, and more patient-centered care.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 AI for GME. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

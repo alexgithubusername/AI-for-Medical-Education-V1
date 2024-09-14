@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI for GME</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .pill-button {
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            display: inline-block;
+            width: calc(25% - 10px);
+            box-sizing: border-box;
+        }
+        .evaluation {
+            background-color: #4a90e2;
+        }
+        .rubric {
+            background-color: #7ed321;
+        }
+        .question {
+            background-color: #f39c12;
+        }
+        .llm {
+            background-color: #e74c3c;
+        }
+        .simulation {
+            background-color: #9b59b6;
+        }
+        .research {
+            background-color: #3498db;
+        }
+        .orientation {
+            background-color: #1abc9c;
+        }
+        .qi {
+            background-color: #8e44ad;
+        }
+        .activities-container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px 0;
+        }
+        .grouped-links {
+            margin-bottom: 20px;
+            display: table;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AI for Graduate Medical Education</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="evaluation.html">Evaluation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to AI for GME</h2>
+            <p>Enhance your Graduate Medical Education program with AI-powered content generation and management.</p>
+        </section>
+
+        <section id="qi">
+            <h2>AI for Quality Improvement</h2>
+            <p>Explore how AI can enhance quality improvement initiatives within healthcare.</p>
+            <div class="activities-container">
+                <a class="pill-button qi" href="understanding_quality_improvement.html">Understanding the Quality Improvement Aspects of Healthcare</a>
+                <a class="pill-button qi" href="creating_projects.html">Creating Projects and Evaluating Projects</a>
+                <a class="pill-button qi" href="ai_tools_evaluating_processes.html">AI Tools for Evaluating Current Processes in the Hospital</a>
+            </div>
+        </section>
+
+        <section id="activities">
+            <h2>Activities</h2>
+            <div class="activities-container">
+                <div class="grouped-links">
+                    <h3>Evaluation Activities</h3>
+                    <a class="pill-button evaluation" href="evaluation.html">Evaluation</a>
+                    <a class="pill-button evaluation" href="secure_message_consult_rubric.html">Secure Message Consult Rubric</a>
+                </div>
+                <div class="grouped-links">
+                    <h3>Rubrics</h3>
+                    <a class="pill-button rubric" href="rubric_presentation.html">Rubric Presentation</a>
+                    <a class="pill-button rubric" href="rubric_journal_club_presentation.html">Rubric Journal Club Presentation</a>
+                    <a class="pill-button rubric" href="rubric_grand_round_presentation.html">Rubric Grand Round Presentation</a>
+                    <a class="pill-button rubric" href="rubric_case_presentation.html">Rubric Case Presentation</a>
+                    <a class="pill-button rubric" href="rubric_interview.html">Rubric Interview</a>
+                    <a class="pill-button rubric" href="rubric_observed_structured_clinical_evaluation.html">Rubric Observed Structured Clinical Evaluation</a>
+                </div>
+                <div class="grouped-links">
+                    <h3>Question Generation</h3>
+                    <a class="pill-button question" href="question_generation.html">Question Generation</a>
+                    <a class="pill-button question" href="question_answering.html">Question Answering</a>
+                    <a class="pill-button question" href="differential.html">Differential</a>
+                    <a class="pill-button question" href="case_generation.html">Case Generation</a>
+                    <a class="pill-button question" href="question_bank.html">Question Bank</a>
+                </div>
+                <div class="grouped-links">
+                    <h3>Large Language Models</h3>
+                    <a class="pill-button llm" href="large_language_models.html">Large Language Models</a>
+                    <a class="pill-button llm" href="ai_enabled_evidence_based_medicine.html">AI-Enabled Evidence Based Medicine</a>
+                </div>
+                <div class="grouped-links">
+                    <h3>Simulation</h3>
+                    <a class="pill-button simulation" href="simulation_case_generation.html">Simulation Case Generation</a>
+                </div>
+                <div class="grouped-links">
+                    <h3>Research</h3>
+                    <a class="pill-button research" href="research.html">Research</a>
+                    <a class="pill-button research" href="data_analysis.html">Data Analysis</a>
+                </div>
+                <div class="grouped-links">
+                    <h3>Orientation</h3>
+                    <a class="pill-button orientation" href="onboarding.html">Onboarding</a>
+                    <a class="pill-button orientation" href="orientation.html">Orientation</a>
+                    <a class="pill-button orientation" href="letters_of_recommendation.html">Letters of Recommendation</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="profile">
+            <h2>User Profile</h2>
+            <div id="user-info">
+                <p>Username: <span id="username">JohnDoe</span></p>
+                <p>Email: <span id="email">johndoe@example.com</span></p>
+                <p>Program: <span id="program">Internal Medicine</span></p>
+            </div>
+            <h3>Saved Content</h3>
+            <ul id="saved-content"></ul>
+            <h3>Custom GPT Links</h3>
+            <ul>
+                <li><a href="https://linktoyourcustomgpt1.com" target="_blank">Custom GPT 1</a></li>
+                <li><a href="https://linktoyourcustomgpt2.com" target="_blank">Custom GPT 2</a></li>
+                <li><a href="https://live.avomd.io/dashboard/c5f680a659844d7a81" target="_blank">Jeopardy JSON Creator</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 AI for GME. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
