@@ -16,10 +16,40 @@ This web-based tool uses artificial intelligence to generate and store education
 AI_for_GME/
 │
 ├── index.html
+├── about.html
+├── ai_enabled_evidence_based_medicine.html
+├── ai_tools_evaluating_processes.html
+├── case_generation.html
+├── contact.html
+├── creating_projects.html
+├── curriculum_development.html
+├── data_analysis.html
+├── differential.html
+├── evaluation.html
+├── large_language_models.html
+├── letters_of_recommendation.html
+├── onboarding.html
+├── orientation.html
+├── question_answering.html
+├── question_bank.html
+├── question_generation.html
+├── research.html
+├── rubric_case_presentation.html
+├── rubric_grand_round_presentation.html
+├── rubric_interview.html
+├── rubric_journal_club_presentation.html
+├── rubric_observed_structured_clinical_evaluation.html
+├── rubric_presentation.html
+├── secure_message_consult_rubric.html
+├── simulation_case_generation.html
+├── simulation_only_notes.html
+├── understanding_quad_improvement.html
+├── understanding_quality_improvement.html
 ├── css/
 │   └── styles.css
 ├── js/
 │   └── script.js
+├── images/
 └── README.md
 ```
 
